@@ -6,7 +6,7 @@ var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "Fish2015!",
+  password: "",
   database: "Bamazon"
 })
 
@@ -40,7 +40,7 @@ function start(){
         {
           type: "input",
           name: "qty",
-          message: "How much would you like to purchase?",
+          message: "How manywould you like to purchase?",
           validate: function(value){
             if(isNaN(value)){
               return false;

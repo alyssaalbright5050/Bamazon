@@ -1,0 +1,24 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Bamazon",
+  "main": "BamazonCustomer.js",
+  "dependencies": {
+    "inquirer": "^7.0.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alyssaalbright5050/Bamazon.git"
+  },
+  "author": "Alyssa Albright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alyssaalbright5050/Bamazon/issues"
+  },
+  "homepage": "https://github.com/alyssaalbright5050/Bamazon#readme"
+}
