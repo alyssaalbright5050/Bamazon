@@ -6,7 +6,7 @@ var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
   user: "root",
-  password: "",
+  password: "Fish2015!",
   database: "Bamazon"
 })
 
@@ -15,7 +15,7 @@ function start(){
     connection.query('SELECT * FROM Products', function(err, res){
       if(err) throw err;
     
-      console.log('_.-"-._.-"-._.---Welcome to BAMazon---._.-"-._.-"-._')
+      console.log('---Welcome to BAMazon---')
       console.log('----------------------------------------------------------------------------------------------------')
     
       for(var i = 0; i<res.length;i++){
@@ -40,8 +40,8 @@ function start(){
         {
           type: "input",
           name: "qty",
-          message: "How manywould you like to purchase?",
-          validate: function(value){
+          message: "How many would you like to purchase?",
+          validate: function(value) {
             if(isNaN(value)){
               return false;
             } else{
