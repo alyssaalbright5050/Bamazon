@@ -8,8 +8,7 @@ The goal was to create an Amazon-like store front using Node.js and MySQL.
 - Run command in Terminal or Gitbash 'npm install'
 - Run command depending which mode you would like to be on:
     * Customer - 'npm run customer'
-    * Manager - 'npm run manager'
-    * Exective - 'npm run exective'
+  
 - Run 'ctrl + c' to exit each mode
 
 ### What JavaScript Does
