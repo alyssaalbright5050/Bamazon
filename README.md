@@ -26,5 +26,6 @@ The goal was to create an Amazon-like store front using Node.js and MySQL.
       * If the purchase goes through, it updates the stock quantity to reflect the purchase.
       * It will also update the product sales in the department table.
       
-      ![](screenshots/Example 1.PNG)
-      ![](screenshots/Example 2.PNG)
+      ![](screenshots/Example1.PNG)
+      ![](screenshots/Example2.PNG)
+      
