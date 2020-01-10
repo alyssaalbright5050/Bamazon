@@ -27,6 +27,5 @@ The goal was to create an Amazon-like store front using Node.js and MySQL.
       * It will also update the product sales in the department table.
       
       ![](screenshots/Example1.PNG)
-      
       ![](screenshots/Example2.PNG)
       
